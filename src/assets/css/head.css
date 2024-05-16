@@ -1,0 +1,20 @@
+.Container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgb(254 232 226) !important;
+}
+.bg-home {
+    background-color: rgb(255 244 241) !important;
+}
+.image {
+    width: auto;
+    height: 50%;
+}
+.sizeofcard {
+    border: none;
+    width: 230px;
+    height: auto;
+}

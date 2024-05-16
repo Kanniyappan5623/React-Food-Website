@@ -1,0 +1,542 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    display: flex;
+    width: 800px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .login-left {
+    background-color: #e7f5e9;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .login-info h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .login-info p {
+    margin: 10px 0 0;
+    color: #666;
+  }
+  
+  .login-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  .login-form h1 {
+    margin: 0 0 20px;
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  .login-google {
+    margin: 20px 0;
+  }
+  
+  .google-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #db4437;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .google-button:hover {
+    background-color: #c33d2e;
+  }
+  
+  .login-signup {
+    text-align: center;
+  }
+  
+  .login-signup a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .login-signup a:hover {
+    text-decoration: underline;
+  }
+   */
+/*App.css*/
+   .App {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+  }
+  /*navbar*/
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    width: 110px;
+    margin-top: -20px;
+}
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .nav-buttons {
+    display: flex;
+  }
+  
+  .signup-btn, .login-btn {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff6347;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .signup-btn:hover, .login-btn:hover {
+    background-color: #ff4500;
+  }
+/*Hero*/  
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #fff5f0;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .get-started-btn {
+    padding: 15px 30px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #ff4500;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+/*Chef*/  
+.chefs-section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .chefs-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .chefs-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .chef-card {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .chef-card img {
+    width: 120%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+  
+  .chef-card h3 {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+  
+  .chef-card p {
+    color: #666;
+    margin-left: 30px;
+}
+/*AboutUs*/  
+.aboutus-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+  
+  .aboutus-content {
+    max-width: 50%;
+  }
+  
+  .aboutus-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .aboutus-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .read-more-btn {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #ff4500;
+  }
+
+  .aboutus-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-right: 110px;
+  }
+/*Blog*/  
+  .blog-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .blog-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .blog-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .blog-card {
+    max-width: 300px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .blog-card p {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .read-more-btn {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #ff4500;
+  }
+/*Menu*/  
+.menu-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.menu-section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.menu-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.menu-card {
+  max-width: 300px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 25px;
+  margin-left: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.menu-card p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.add-to-cart-btn {
+  padding: 10px 20px;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #ff4500;
+}
+
+/*JoinUs*/  
+.joinus-section {
+    padding: 60px 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .joinus-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .joinus-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .joinus-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+  }
+  
+  .joinus-form button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .joinus-form button:hover {
+    background-color: #ff4500;
+  }
+/*Service*/  
+.services-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .services-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .services-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service-card {
+    max-width: 300px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    color: #666;
+  }
+/*footer*/  
+.footer {
+    padding: 40px 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-logo {
+    /* font-size: 24px;
+    font-weight: bold; */
+    width: 60px;
+    margin-top: 10px;
+  }
+  
+  .footer-links {
+    margin-bottom: 20px;
+  }
+  
+  .footer-links h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer-links ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-social {
+    margin-bottom: 20px;
+  }
+  
+  .footer-social h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+  }
